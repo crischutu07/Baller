@@ -3,7 +3,7 @@ Termux pure bash script make for something...
 # Installation
 Install Following Packages
 ```bash
-apt install curl wget ruby wget -y
+apt install curl wget ruby wget neovim -y
 ```
 Run this ``curl`` command to install
 ```
