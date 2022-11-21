@@ -10,5 +10,5 @@ rm ./Baller/install.sh
 chmod +x ./Baller/start.sh
 rm ./Baller/LICENSE
 rm ./Baller/README.md
-echo "[*] Done! Run ./start.sh to use."
+echo "[*] Done! Run ./Baller/start.sh to use."
 exit 0
