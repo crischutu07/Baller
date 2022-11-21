@@ -15,7 +15,7 @@ ${Green}- ${Yellow}dadjoke ${Reset}(Tell me dad joke)"""
 }
 cmdLicense (){
   echo -e """MIT License
-  Copyright (c) 2022 ${Yellow}crischutu07${Reset}
+Copyright (c) 2022 ${Yellow}crischutu07${Reset}
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
