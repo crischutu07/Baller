@@ -45,6 +45,7 @@ case "$cmd" in
   "history") cmdHistory 2>> err.log;;
   "update") cmdUpdatePackage 2>> err.log;;
   "momjoke") cmdMomJoke 2>> err.log;;
+  "dadjoke") cmdDadJoke 2>> err.log;;
   *) echo -e "${Red}${cmd}${Reset} Not Found";;
 esac
 history -s "$cmd"
