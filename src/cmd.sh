@@ -10,7 +10,8 @@ ${Green}- ${Yellow}version ${Reset}(Print version of this bash files)
 ${Green}- ${Yellow}battery ${Reset}(Print battery)
 ${Green}- ${Yellow}history ${Reset}(Read history files)
 ${Green}- ${Yellow}update ${Reset}(Update package)
-${Green}- ${Yellow}momjoke ${Reset}(Tell me mom joke)"""
+${Green}- ${Yellow}momjoke ${Reset}(Tell me mom joke)
+${Green}- ${Yellow}dadjoke ${Reset}(Tell me dad joke)"""
 }
 cmdLicense (){
   echo -e """The AGPLv3 License (AGPLv3)
@@ -62,4 +63,7 @@ cmdUpdatePackage (){
 }
 cmdMomJoke (){
   curl https://api.yomomma.info/ | jq -r ".joke"
+}
+cmdDadJoke (){
+  shuf -n 1 dad.txt
 }
