@@ -8,6 +8,7 @@ echo "[*] Forking repository"
 git clone https://github.com/crischutu07/Baller ./Baller/
 rm ./Baller/install.sh
 chmod +x ./Baller/start.sh
-cd ./Baller/
+rm ./Baller/LICENSE
+rm ./Baller/README.md
 echo "[*] Done! Run ./start.sh to use."
 exit 0
