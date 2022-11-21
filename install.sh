@@ -7,5 +7,5 @@ apt install wget curl git ruby -y
 echo "[*] Forking repository"
 fork https://github.com/crischutu07/Baller ./Baller/
 rm ./Baller/install.sh
-echo Done! Run ./start.sh to use.
+echo "[*] Done! Run ./start.sh to use."
 exit 0
