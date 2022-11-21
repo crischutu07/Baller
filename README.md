@@ -13,3 +13,13 @@ Then go to ``Baller/`` directory and run command
 ```
 ./start.sh
 ```
+# List of Commands
+- help (Print help command)
+- shell (Open exist shell)
+- editor (Open text editor)
+- license (Print License)
+- version (Print version of this bash files)
+- battery (Print battery)
+- history (Read history files)
+- update (Update package)
+- momjoke (Tell me mom joke)
