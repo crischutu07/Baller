@@ -1,5 +1,5 @@
 ## Baller
-Termux pure bash
+Termux pure bash script make for something...
 # Installation
 Install Following Packages
 ```bash
