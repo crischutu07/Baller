@@ -23,3 +23,4 @@ Then go to ``Baller/`` directory and run command
 - history (Read history files)
 - update (Update package)
 - momjoke (Tell me mom joke)
+- dadjoke (Tell me dad joke)
