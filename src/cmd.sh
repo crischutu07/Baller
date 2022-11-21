@@ -65,5 +65,5 @@ cmdMomJoke (){
   curl https://api.yomomma.info/ | jq -r ".joke"
 }
 cmdDadJoke (){
-  shuf -n 1 dad.txt
+  shuf -n 1 src/dad.txt
 }
