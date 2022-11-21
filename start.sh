@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-# This type of file must be required
+# This type of file must on Baller/ directories
 source ./src/cmd.sh 2>> err.log
 if [[ $(command -v unzip) == "" ]]; then
   apt install unzip -y 1> /dev/null
@@ -11,6 +11,8 @@ if [[ $(command -v wget) == "" ]]; then
   apt install wget -y 1> /dev/null
 fi
 if [[ $(command -v lolcat) == "" ]]; then
+  echo -e "Warning: ${Red}You are not installed ${Yellow}'lolcat'${Red}, the script will automatically install."
+  echo -e "${Reset}Notice: ${Yellow}To avoiding this, run ${Green}./start.sh${Yellow} with ${Green}--no-ascii${Yellow} argument"
   gem install lolcat 1> /dev/null
 fi
 if [[ $1 != "--no-ascii" ]]; then
