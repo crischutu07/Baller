@@ -40,7 +40,8 @@ case "$cmd" in
   [Hh]istory) cmdHistory 2>> err.log;;
   [Uu]pdate) cmdUpdatePackage 2>> err.log;;
   [Jj]oke) cmdJoke 2>> err.log;;
-  *) echo -e "${Red}${cmd}${Reset} Not Found";;
+  [Cc]lear) cmdClear 2>> err.log;;
+  *) echo -e "${Red}${cmd}${Reset} Not Found";; 
 esac
 history -s "$cmd"
 history -w .history
