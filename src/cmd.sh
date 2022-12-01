@@ -57,7 +57,7 @@ cmdEditor (){
   eval $EDITOR $HOME/../
 }
 cmdVersion (){
-  echo -e "Baller Shell ${Green}v1.0.0 (Termux ${Yellow}v${TERMUX_VERSION})${Reset}"
+	echo -e "Baller Shell ${Green}v1.0.0 ${Reset}(Termux ${Yellow}v${TERMUX_VERSION}${Reset})"
 }
 cmdHistory (){
   echo "zombie q" > .screenrc
